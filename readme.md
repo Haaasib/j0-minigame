@@ -4,7 +4,7 @@ https://discord.com/invite/T7du2nJfyN
 
 ```
 RegisterCommand('arrowclicker', function()
-    local result = exports["prp-minigames"]:StartMinigame("arrowClicker", options)
+    local result = exports["j0-minigame"]:StartMinigame("arrowClicker", options)
     if result then
         print("Success")
     else
