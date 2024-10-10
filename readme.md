@@ -13,7 +13,7 @@ RegisterCommand('arrowclicker', function()
 end)
 
 RegisterCommand('minesweeper', function()
-    local result = exports["prp-minigames"]:StartMinigame("mineSweeper", options)
+    local result = exports["j0-minigame"]:StartMinigame("mineSweeper", options)
     if result then
         print("Success")
     else
@@ -22,7 +22,7 @@ RegisterCommand('minesweeper', function()
 end)
 
 RegisterCommand('shoplockpick', function()
-    local result = exports["prp-minigames"]:StartMinigame("shopLockpick", options)
+    local result = exports["j0-minigame"]:StartMinigame("shopLockpick", options)
     if result then
         print("Success")
     else
@@ -31,7 +31,7 @@ RegisterCommand('shoplockpick', function()
 end)
 
 RegisterCommand('flappybird', function()
-    local result = exports["prp-minigames"]:StartMinigame("flappyBird", options)
+    local result = exports["j0-minigame"]:StartMinigame("flappyBird", options)
     if result then
         print("Success")
     else
@@ -40,7 +40,7 @@ RegisterCommand('flappybird', function()
 end)
 
 RegisterCommand('jigsawpuzzle', function()
-    local result = exports["prp-minigames"]:StartMinigame("jigsawPuzzle", options)
+    local result = exports["j0-minigame"]:StartMinigame("jigsawPuzzle", options)
     if result then
         print("Success")
     else
@@ -49,7 +49,7 @@ RegisterCommand('jigsawpuzzle', function()
 end)
 
 RegisterCommand('aimlab', function()
-    local result = exports["prp-minigames"]:StartMinigame("aimLab", options)
+    local result = exports["j0-minigame"]:StartMinigame("aimLab", options)
     if result then
         print("Success")
     else
@@ -58,7 +58,7 @@ RegisterCommand('aimlab', function()
 end)
 
 RegisterCommand('knobturning', function()
-    local result = exports["prp-minigames"]:StartMinigame("knobTurning", options)
+    local result = exports["j0-minigame"]:StartMinigame("knobTurning", options)
     if result then
         print("Success")
     else
@@ -67,7 +67,7 @@ RegisterCommand('knobturning', function()
 end)
 
 RegisterCommand('lettersfall', function()
-    local result = exports["prp-minigames"]:StartMinigame("lettersFall", options)
+    local result = exports["j0-minigame"]:StartMinigame("lettersFall", options)
     if result then
         print("Success")
     else
@@ -76,7 +76,7 @@ RegisterCommand('lettersfall', function()
 end)
 
 RegisterCommand('cableconnect', function()
-    local result = exports["prp-minigames"]:StartMinigame("cableConnect", options)
+    local result = exports["j0-minigame"]:StartMinigame("cableConnect", options)
     if result then
         print("Success")
     else
@@ -85,7 +85,7 @@ RegisterCommand('cableconnect', function()
 end)
 
 RegisterCommand('traceShape', function()
-    local result = exports["prp-minigames"]:StartMinigame("traceShape", options)
+    local result = exports["j0-minigame"]:StartMinigame("traceShape", options)
     if result then
         print("Success")
     else
